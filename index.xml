@@ -1,19 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>mlbubble网址导航</title>
-    <link>/</link>
-    <description>Recent content on mlbubble网址导航</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Jul 2020 19:27:08 +0800</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>关于网站</title>
-      <link>/about/</link>
-      <pubDate>Tue, 28 Jul 2020 19:27:08 +0800</pubDate>
-      <guid>/about/</guid>
-      <description>这是 Hugo 版 WebStack 主题 本项目是基于纯静态的网址导航网站 webstack.cc 制作的 Hugo 主题，其中部分代码参考了以下几个开源项目： https://github.com/liutongxu/liutongxu.github.io https://github.com/iplaycode/webstack-hugo 主题安装后，将 exampleSite 目录下的文件复制到 hugo 站</description>
-    </item>
-  </channel>
-</rss>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>泡泡的工具箱 - 加载效果预览</title>
+<style>
+/* 加载器样式 */
+.loader {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 900;
+  color: transparent; /* 文字颜色设置为透明 */
+  background: linear-gradient(45deg, #FFD700, #00F, #800080); /* 黄-蓝-紫渐变 */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.2em;
+}
+
+/* 定义两个小方块的样式 */
+.loader::before,
+.loader::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #ADD8E6; /* 淡蓝色 */
+  position: absolute;
+  animation: load .7s infinite linear;
+}
+
+/* 修改动画规则以实现顺时针运动 */
+@keyframes load {
+  0% { top: 0; left: 0; }
+  25% { top: 0; right: 0; }
+  50% { bottom: 0; right: 0; }
+  75% { bottom: 0; left: 0; }
+  100% { top: 0; left: 0; }
+}
+
+/* 分别定义两个方块的不同动画路径 */
+.loader::before {
+  animation-name: before-load;
+}
+
+.loader::after {
+  animation-name: after-load;
+}
+
+/* 定义两个不同的动画，使得两个方块的起始位置不同 */
+@keyframes before-load {
+  0% { top: 0; left: 0; }
+  100% { bottom: 0; right: 0; }
+}
+
+@keyframes after-load {
+  0% { bottom: 0; right: 0; }
+  100% { top: 0; left: 0; }
+}
+</style>
+</head>
+<body>
+
+<!-- 加载器容器 -->
+<div id="loading">
+  <div class="loader">泡泡的工具箱</div>
+</div>
+
+</body>
+</html>
