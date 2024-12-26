@@ -1,2 +1,0 @@
-# toolnav
-self navigation
