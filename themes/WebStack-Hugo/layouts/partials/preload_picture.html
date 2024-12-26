@@ -1,0 +1,170 @@
+
+
+
+<style>
+    /* 确保整个页面的内容居中 */
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0; /* 可选：设置背景颜色 */
+    }
+
+    .loader {
+        width: 300px; /* 增加宽度以适应更大的字体 */
+        height: 80px; /* 增加高度以适应更大的字体 */
+        line-height: 80px; /* 确保文本垂直居中 */
+        text-align: center;
+        position: relative; /* 改为相对定位，以便伪元素相对于它定位 */
+        font-family: helvetica, arial, sans-serif;
+        font-size: 40px; /* 增大字体大小 */
+        font-weight: 900;
+        letter-spacing: 0.1em; /* 减小字母间距 */
+        background: linear-gradient(to bottom right, #6eeced 25%, #1e8bc3 40%, #4a90e2 60%, #6c5dc7 75%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 0; /* 移除默认内边距 */
+        margin: 0; /* 移除默认外边距 */
+        box-sizing: border-box;
+    }
+
+    .loader::before,
+    .loader::after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        background:    #53bbee; /* 浅蓝色 */
+        position: absolute;
+        animation: rectPath 4s infinite linear;
+        box-sizing: border-box;
+    }
+
+    .loader::before {
+        top: 0;
+        left: 0;
+        animation-name: rectPathTopLeft;
+    }
+
+    .loader::after {
+        bottom: 0;
+        right: 0;
+        animation-name: rectPathBottomRight;
+    }
+
+    @keyframes rectPathTopLeft {
+        0% {
+            top: 0;
+            left: 0;
+        }
+        25% {
+            top: 0;
+            left: calc(100% - 10px); /* 调整为紧贴右边缘 */
+        }
+        50% {
+            top: calc(100% - 10px); /* 调整为紧贴下边缘 */
+            left: calc(100% - 10px); /* 调整为紧贴右边缘 */
+        }
+        75% {
+            top: calc(100% - 10px); /* 调整为紧贴下边缘 */
+            left: 0;
+        }
+        100% {
+            top: 0;
+            left: 0;
+        }
+    }
+
+    @keyframes rectPathBottomRight {
+        0% {
+            bottom: 0;
+            right: 0;
+        }
+        25% {
+            bottom: 0;
+            right: calc(100% - 10px); /* 调整为紧贴左边缘 */
+        }
+        50% {
+            bottom: calc(100% - 10px); /* 调整为紧贴上边缘 */
+            right: calc(100% - 10px); /* 调整为紧贴左边缘 */
+        }
+        75% {
+            bottom: calc(100% - 10px); /* 调整为紧贴上边缘 */
+            right: 0;
+        }
+        100% {
+            bottom: 0;
+            right: 0;
+        }
+    }
+</style>
+<div class="loader">泡泡的工具箱</div>
+ 
+
+
+
+原备份
+
+
+
+<style>
+    .loader {
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: helvetica, arial, sans-serif;
+        font-weight: 900;
+        color: #f1404b;
+        letter-spacing: 0.2em
+    }
+
+    .loader::before,
+    .loader::after {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        background: #f1404b;
+        position: absolute;
+        animation: load .7s infinite alternate ease-in-out
+    }
+
+    .loader::before {
+        top: 0
+    }
+
+    .loader::after {
+        bottom: 0
+    }
+
+    @keyframes load {
+        0% {
+            left: 0;
+            height: 30px;
+            width: 15px
+        }
+
+        50% {
+            height: 8px;
+            width: 40px
+        }
+
+        100% {
+            left: 235px;
+            height: 30px;
+            width: 15px
+        }
+    }
+</style>
+<div class="loader">{{ $.Site.Params.textPreLoad }}</div>
+
+
+
+

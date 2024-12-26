@@ -1,0 +1,200 @@
+{{ if $.Site.Params.nightMode }}
+<body class="io-black-mode">
+{{ else }}
+<body class="io-grey-mode">
+{{ end }}
+    {{ if $.Site.Params.enablePreLoad }}
+    <div id="loading">
+        
+
+
+        <style>
+            /* 确保整个页面的内容居中 */
+            html, body {
+                height: 100%;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f0f0f0; /* 可选：设置背景颜色 */
+            }
+        
+            .loader {
+                width: 300px; /* 增加宽度以适应更大的字体 */
+                height: 80px; /* 增加高度以适应更大的字体 */
+                line-height: 80px; /* 确保文本垂直居中 */
+                text-align: center;
+                position: relative; /* 改为相对定位，以便伪元素相对于它定位 */
+                font-family: helvetica, arial, sans-serif;
+                font-size: 40px; /* 增大字体大小 */
+                font-weight: 900;
+                letter-spacing: 0.1em; /* 减小字母间距 */
+                background: linear-gradient(to bottom right, #6eeced 25%, #1e8bc3 40%, #4a90e2 60%, #6c5dc7 75%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding: 0; /* 移除默认内边距 */
+                margin: 0; /* 移除默认外边距 */
+                box-sizing: border-box;
+            }
+        
+            .loader::before,
+            .loader::after {
+                content: "";
+                display: block;
+                width: 10px;
+                height: 10px;
+                background:    #53bbee; /* 浅蓝色 */
+                position: absolute;
+                animation: rectPath 4s infinite linear;
+                box-sizing: border-box;
+            }
+        
+            .loader::before {
+                top: 0;
+                left: 0;
+                animation-name: rectPathTopLeft;
+            }
+        
+            .loader::after {
+                bottom: 0;
+                right: 0;
+                animation-name: rectPathBottomRight;
+            }
+        
+            @keyframes rectPathTopLeft {
+                0% {
+                    top: 0;
+                    left: 0;
+                }
+                25% {
+                    top: 0;
+                    left: calc(100% - 10px); /* 调整为紧贴右边缘 */
+                }
+                50% {
+                    top: calc(100% - 10px); /* 调整为紧贴下边缘 */
+                    left: calc(100% - 10px); /* 调整为紧贴右边缘 */
+                }
+                75% {
+                    top: calc(100% - 10px); /* 调整为紧贴下边缘 */
+                    left: 0;
+                }
+                100% {
+                    top: 0;
+                    left: 0;
+                }
+            }
+        
+            @keyframes rectPathBottomRight {
+                0% {
+                    bottom: 0;
+                    right: 0;
+                }
+                25% {
+                    bottom: 0;
+                    right: calc(100% - 10px); /* 调整为紧贴左边缘 */
+                }
+                50% {
+                    bottom: calc(100% - 10px); /* 调整为紧贴上边缘 */
+                    right: calc(100% - 10px); /* 调整为紧贴左边缘 */
+                }
+                75% {
+                    bottom: calc(100% - 10px); /* 调整为紧贴上边缘 */
+                    right: 0;
+                }
+                100% {
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+        </style>
+        <div class="loader">泡泡的工具箱</div>
+
+
+
+    </div>
+    {{ end }}
+    <div class="page-container">
+	{{ if $.Site.Params.expandSidebar }}
+	<div id="sidebar" class="sticky sidebar-nav fade animate-nav" style="width: 170px">
+        {{ else }}
+        <div id="sidebar" class="sticky sidebar-nav fade mini-sidebar" style="width: 60px;">
+	{{ end }}
+            <div class="modal-dialog h-100 sidebar-nav-inner">
+                <div class="sidebar-logo border-bottom border-color">
+                    <!-- logo -->
+                    <div class="logo overflow-hidden">
+                        <a href="" class="logo-expanded">
+                            <img src="{{ absURL $.Site.Params.images.logoExpandLight }}" height="40" class="logo-light"
+                                alt="{{ .Site.Title }}">
+                            <img src="{{ absURL $.Site.Params.images.logoExpandDark }}" height="40" class="logo-dark d-none"
+                                alt="{{ .Site.Title }}">
+                        </a>
+                        <a href="" class="logo-collapsed">
+                            <img src="{{ absURL $.Site.Params.images.logoCollapseLight }}" height="40" class="logo-light"
+                                alt="{{ .Site.Title }}">
+                            <img src="{{ absURL $.Site.Params.images.logoCollapseDark }}" height="40" class="logo-dark d-none"
+                                alt="{{ .Site.Title }}">
+                        </a>
+                    </div>
+                    <!-- logo end -->
+                </div>
+                <div class="sidebar-menu flex-fill">
+                    <div class="sidebar-scroll">
+                        <div class="sidebar-menu-inner">
+                            <ul>
+                                {{ range .Site.Data.webstack }}
+                                    {{ if .list }}
+                                    <li class="sidebar-item">
+                                        <a href="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}" class="smooth change-href" data-change="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}">    
+                                            <i class="{{ .icon }} icon-fw icon-lg mr-2"></i>
+                                            <span>{{ .taxonomy }}</span>
+                                            <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
+                                        </a>
+                                        <ul>
+                                            {{ range .list }}
+                                            <li><a href="#{{ md5 .term }}" class="smooth"><span>{{ .term }}</span></a></li>
+                                            {{ end }}
+                                        </ul>
+                                    </li> 
+                                    {{ else }}
+                                    <li class="sidebar-item">
+                                        <a href="#{{ md5 .taxonomy }}" class="smooth">
+                                            <i class="{{ .icon }} fa-lg icon-fw icon-lg mr-2"></i>
+                                            <span>{{ .taxonomy }}</span>
+                                        </a>
+                                    </li>
+                                    {{ end }}
+                                {{ end }}
+                            </ul>           
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top py-2 border-color">
+                    <div class="flex-bottom">
+                        <ul>
+                            <li id="menu-item-237"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237 sidebar-item">
+                                <a href="{{ $.Site.Params.upload }}" target="_blank">
+                                    <i class="fas fa-file-upload icon-fw icon-lg mr-2"></i>
+                                    <span>网站提交</span></a>
+                            </li>
+
+			    <li id="menu-item-212"
+                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-212 sidebar-item">
+                                 <a href="#friendlink" class="smooth">
+                                     <i class="fab fa-staylinked icon-fw icon-lg mr-2"></i>
+                                     <span>友情链接</span>
+                                 </a>
+                            </li>
+
+                            <li id="menu-item-213"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-213 sidebar-item">
+                                <a target="_blank" rel="noopener" href="{{ $.Site.Params.about }}">
+                                    <i class="fa fa-info-circle icon-fw icon-lg mr-2"></i>
+                                    <span>关于导航</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
