@@ -15,5 +15,12 @@
       <guid>/about/</guid>
       <description>这是 Hugo 版 WebStack 主题 本项目是基于纯静态的网址导航网站 webstack.cc 制作的 Hugo 主题，其中部分代码参考了以下几个开源项目： https://github.com/liutongxu/liutongxu.github.io https://github.com/iplaycode/webstack-hugo 主题安装后，将 exampleSite 目录下的文件复制到 hugo 站</description>
     </item>
+    <item>
+      <title></title>
+      <link>/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/test/</guid>
+      <description>测试内容 test</description>
+    </item>
   </channel>
 </rss>
