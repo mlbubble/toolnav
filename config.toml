@@ -1,7 +1,7 @@
 relativeURLs = true
-# baseURL               = "https://bioit.top/"
+# baseURL               = "none"
 languageCode          = "zh-CN"
-title                 = "mlbubble网址导航"
+title                 = "泡泡的工具箱"
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
@@ -10,8 +10,8 @@ publishDir            = "docs"				# 站点静态文件保存目录
 
 
 [params]
-    author        = "shenweiyan"
-    description   = "Webstack-Hugo 网址导航 | Hugo 主题 BY Bio IT 爱好者"
+    author        = "mlbubble"
+    description   = "一个乱七八糟的导航站"
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
     enablePreLoad = true					# 网站完全打开前预加载动画
     expandSidebar = false					# 默认展开左侧边导航栏
@@ -24,13 +24,13 @@ publishDir            = "docs"				# 站点静态文件保存目录
 
 
 [params.images]
-    favicon           = "assets/images/bi-favicon.png"
+    favicon           = "assets/image/minilogo.png"
     searchImageL      = "assets/images/bg-dna.jpg"		# 搜索部分浅色背景图
     searchImageD      = "assets/images/bg-dna.jpg"		# 搜索部分深色背景图
     logoExpandLight   = "assets/image/sidebarlogo.png"
     logoExpandDark    = "assets/image/sidebarlogo.png"
-    logoCollapseLight = "assets/images/bi.png"
-    logoCollapseDark  = "assets/images/bi.png"
+    logoCollapseLight = "assets/image/minilogo.png"
+    logoCollapseDark  = "assets/image/minilogo.png"
     
 [markup.goldmark.renderer]
     unsafe = true
