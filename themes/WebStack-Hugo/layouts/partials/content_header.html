@@ -49,16 +49,16 @@
                         {{ with .Site.Params.yiyan }}
                         <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
                             <script>
-                                fetch('https://v1.hitokoto.cn')
+                                fetch('https://v1.hitokoto.cn/?c=d&c=i&c=k')
                                     .then(response => response.json())
                                     .then(data => {
                                     const hitokoto = document.getElementById('hitokoto_text')
-                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                                    //hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid  超链接
                                     hitokoto.innerText = data.hitokoto
                                     })
                                     .catch(console.error)
                             </script>                           
-                            <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
+                            <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">当我无所谓不可能的时候</a></div>
                         </li>
                         {{ end }}
                         <!-- 一言 end -->
