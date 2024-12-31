@@ -1,6 +1,6 @@
 ---
 
-- taxonomy: 常用推荐
+- taxonomy: Daily
   icon: fas fa-star-of-david
   links: 
     - title: AI工具集
@@ -28,40 +28,42 @@
       url: https://gitlab.com/jubt/home
       description: 地址发布页https://1jubt.top/
       
-    - title: 
-      logo:  https://favicon.im/
-      url: 
-      description: 
+    - title: Github
+      logo:  https://favicon.im/github.com
+      url: https://github.com/
+      description: Github开源社区
       
-    - title: 
-      logo:  https://favicon.im/
-      url: 
-      description: 
+    - title: 今日热榜
+      logo:  https://favicon.im/tophub.today
+      url: https://tophub.today/
+      description: 各平台热点排行榜
       
-    - title: 
-      logo:  https://favicon.im/
-      url: 
-      description: 
+    - title: 今日简报
+      logo:  https://favicon.im/idaily.today
+      url: https://idaily.today/dashboard
+      description: AI精选热点新闻，自测邮箱订阅无效
+
+    - title: 英语真题在线
+      logo:  https://favicon.im/zhenti.burningvocabulary.cn
+      url: https://zhenti.burningvocabulary.cn/
+      description: 英语试题在线训练平台
+
+    - title: 学邦登录
+      logo:  https://favicon.im/www.xuebangsoft.net
+      url: https://www.xuebangsoft.net/eduboss/login.jsp
+      description: 学邦PC端
       
-    - title: 
-      logo:  https://favicon.im/
-      url: 
-      description: 
+    - title: 学科网
+      logo:  https://favicon.im/zxxk.com
+      url: https://sx.zxxk.com/m/books-v298
+      description: 苏科版初中数学
       
-    - title: 
-      logo:  https://favicon.im/
-      url: 
-      description: 
+    - title: 江南汇
+      logo:  https://favicon.im/www.szzx100.cn
+      url: https://www.szzx100.cn/
+      description: 江南汇教育网
       
-    - title: 
-      logo:  https://favicon.im/
-      url: 
-      description: 
-      
-    - title: 
-      logo:  https://favicon.im/
-      url: 
-      description: 
+
       
     - title: 
       logo:  https://favicon.im/
