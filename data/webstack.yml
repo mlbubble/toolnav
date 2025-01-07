@@ -88,112 +88,139 @@
   list:
     - term: 新闻发布
       links:
-        - title: 中国政府网
-          logo: https://favicon.im/www.gov.cn
+        - title: 政府网
+          logo: 
           url: https://www.gov.cn/
-          description: 中央人民政府门户网站
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description:           
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-
+          description: 政府网
+        - title: 中科院
+          logo: https://favicon.im/www.cas.cn
+          url: https://www.cas.cn/
+          description: 中国科学院
+        - title: 工程院
+          logo: https://favicon.im/www.cae.cn
+          url: https://www.cae.cn/
+          description: 中国工程院
+        - title: 社科院
+          logo: https://favicon.im/www.cass.cn
+          url: http://www.cass.cn/
+          description: 中国社会科学院
+        - title: 科协
+          logo: https://favicon.im/www.cast.org.cn
+          url: https://www.cast.org.cn/
+          description: 中国科学技术协会
+        - title: 科技部
+          logo: 
+          url: https://www.most.gov.cn/index.html
+          description: 科学技术部
+        - title: 工信部
+          logo: 
+          url: https://www.miit.gov.cn/
+          description: 工业和信息化部
+        - title: 网信办
+          logo: 
+          url: https://www.cac.gov.cn/
+          description: 网络安全和信息化委员会办公室
+        - title: 信通院
+          logo: 
+          url: http://www.caict.ac.cn/
+          description: 信息通信研究院
+        - title: 自然科学基金
+          logo: 
+          url: https://www.nsfc.gov.cn/
+          description: 国家自然科学基金委员会
+        - title: 国家统计局
+          logo: 
+          url: https://www.stats.gov.cn/
+          description: 国家统计局
+        - title: 国家知识产权局
+          logo: 
+          url: https://www.cnipa.gov.cn/
+          description: 国家知识产权局
+        - title: 国务院发展研究中心
+          logo: 
+          url: https://www.drc.gov.cn/default.aspx
+          description: 国务院发展研究中心
+        - title: 发改委
+          logo: 
+          url: https://www.ndrc.gov.cn/
+          description: 国家发展和改革委员会
+        - title: 教育部
+          logo: 
+          url: http://www.moe.gov.cn/
+          description: 教育部
+        - title: 人社部
+          logo: 
+          url: https://www.mohrss.gov.cn/
+          description: 人力资源和社会保障部
+        - title: 财政部
+          logo: 
+          url: https://www.mof.gov.cn/index.htm
+          description: 财政部
+        - title: 商务部
+          logo: 
+          url: https://www.mofcom.gov.cn/
+          description: 商务部
+        - title: 航天局
+          logo: 
+          url: https://www.cnsa.gov.cn/
+          description: 航天局
+        - title: 国务院新闻办公室
+          logo: 
+          url: http://www.scio.gov.cn/
+          description: 国务院新闻办公室
+        - title: 新华社
+          logo: https://favicon.im/www.news.cn
+          url: http://www.news.cn/xinhuashe/
+          description: 新华社官网
+        - title: 央视网
+          logo: https://favicon.im/www.cctv.com
+          url: https://www.cctv.com
+          description: CCTV央视网官网
 
 
 
     - term: 热点排行
       links:
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-    - term: 国际要闻
-      links:
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-        - title: 
-          logo: https://favicon.im/
-          url: 
-          description: 
-
-
+        - title: 今日热榜
+          logo: https://favicon.im/tophub.today
+          url: https://tophub.today/
+          description: 全网热点聚集
+        - title: 今日简报
+          logo: https://favicon.im/idaily.today
+          url: https://idaily.today/
+          description: AI驱动热榜
+        - title: Buzzing
+          logo: https://favicon.im/www.buzzing.cc
+          url: https://www.buzzing.cc/
+          description: 海外热榜聚合
+        - title: URLS
+          logo: https://favicon.im/techurls.com
+          url: https://techurls.com/
+          description: 数理计算机热榜聚合，右上角切换不同榜单
+        - title: BestBlogs.dev
+          logo: https://favicon.im/www.bestblogs.dev
+          url: https://www.bestblogs.dev/
+          description: 计算机文章精选
+        - title: 今日热榜2
+          logo: https://favicon.im/hot.vvhan.com
+          url: https://hot.vvhan.com/
+          description: 热榜聚合站点
+        - title: 今日热榜3
+          logo: https://favicon.im/hot.imsyy.top
+          url: https://hot.imsyy.top/#/
+          description: 热榜聚合站点
+        - title: 今日热榜4
+          logo: https://favicon.im/rebang.today
+          url: https://rebang.today/
+          description: 热榜聚合站点
+        - title: AnyKnew
+          logo: https://favicon.im/www.anyknew.com
+          url: https://www.anyknew.com/#/
+          description: 热榜聚合站点
+        - title: 什么值得看
+          logo: https://favicon.im/smzdk.top
+          url: https://smzdk.top/#/
+          description: 热榜聚合站点
 
 
 
