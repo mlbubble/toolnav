@@ -42,12 +42,23 @@
       logo:  https://favicon.im/tongyi.aliyun.com
       url: https://tongyi.aliyun.com/qianwen/
       description: 阿里大模型AI助手
-      
+    - title: deepseek
+      logo:  https://favicon.im/www.deepseek.com
+      url: https://www.deepseek.com/
+      description: 深度求索开发大模型     
+
     - title: Kimi
       logo:  https://favicon.im/kimi.moonshot.cn
       url: https://kimi.moonshot.cn/
       description: AI智能搜索
-
+    - title: 学信网
+      logo:  https://favicon.im/www.chsi.com.cn
+      url: https://www.chsi.com.cn/
+      description: 学信网首页
+    - title: 研招网
+      logo:  https://favicon.im/yz.chsi.com.cn
+      url: https://yz.chsi.com.cn/
+      description: 研究生招生信息网
     - title: 英语真题在线
       logo:  https://favicon.im/zhenti.burningvocabulary.cn
       url: https://zhenti.burningvocabulary.cn/
@@ -62,6 +73,33 @@
       logo:  https://favicon.im/idaily.today
       url: https://idaily.today/dashboard
       description: AI精选热点新闻，自测邮箱订阅无效
+
+
+
+    - title: 淘宝
+      logo:  https://favicon.im/www.taobao.com
+      url: https://www.taobao.com/
+      description: 淘宝网
+    - title: 天猫
+      logo:  https://favicon.im/www.tmall.com
+      url: https://www.tmall.com/
+      description: 天猫
+    - title: 京东
+      logo:  https://favicon.im/www.jd.com
+      url: https://www.jd.com/
+      description: 京东
+    - title: 小米商城
+      logo:  https://favicon.im/www.mi.com
+      url: https://www.mi.com/shop
+      description: 小米官方商城
+    - title: 什么值得买
+      logo:  https://favicon.im/www.smzdm.com
+      url: https://www.smzdm.com/
+      description: 优惠补贴
+    - title: 12306
+      logo:  https://favicon.im/www.12306.cn
+      url: https://www.12306.cn/
+      description: 中国铁路12306
 
     - title: 学邦登录
       logo:  https://favicon.im/www.xuebangsoft.net
@@ -86,6 +124,50 @@
 - taxonomy: News
   icon: far fa-newspaper
   list:
+
+    - term: 热点排行
+      links:
+        - title: 今日热榜
+          logo: https://favicon.im/tophub.today
+          url: https://tophub.today/
+          description: 全网热点聚集
+        - title: 今日简报
+          logo: https://favicon.im/idaily.today
+          url: https://idaily.today/
+          description: AI驱动热榜
+        - title: Buzzing
+          logo: https://favicon.im/www.buzzing.cc
+          url: https://www.buzzing.cc/
+          description: 海外热榜聚合
+        - title: URLS
+          logo: https://favicon.im/techurls.com
+          url: https://techurls.com/
+          description: 数理计算机热榜聚合，右上角切换不同榜单
+        - title: BestBlogs.dev
+          logo: https://favicon.im/www.bestblogs.dev
+          url: https://www.bestblogs.dev/
+          description: 计算机文章精选
+        - title: 今日热榜2
+          logo: https://favicon.im/hot.vvhan.com
+          url: https://hot.vvhan.com/
+          description: 热榜聚合站点
+        - title: 今日热榜3
+          logo: https://favicon.im/hot.imsyy.top
+          url: https://hot.imsyy.top/#/
+          description: 热榜聚合站点
+        - title: 今日热榜4
+          logo: https://favicon.im/rebang.today
+          url: https://rebang.today/
+          description: 热榜聚合站点
+        - title: AnyKnew
+          logo: https://favicon.im/www.anyknew.com
+          url: https://www.anyknew.com/#/
+          description: 热榜聚合站点
+        - title: 什么值得看
+          logo: https://favicon.im/smzdk.top
+          url: https://smzdk.top/#/
+          description: 热榜聚合站点
+
     - term: 新闻发布
       links:
         - title: 政府网
@@ -177,50 +259,18 @@
           url: https://www.cctv.com
           description: CCTV央视网官网
 
+- taxonomy: Community
+  icon: fas fa-users
+  links: 
+    - title: 
+      logo:  https://favicon.im/
+      url: 
+      description: 
+    - title: 
+      logo:  https://favicon.im/
+      url: 
+      description: 
 
-
-    - term: 热点排行
-      links:
-        - title: 今日热榜
-          logo: https://favicon.im/tophub.today
-          url: https://tophub.today/
-          description: 全网热点聚集
-        - title: 今日简报
-          logo: https://favicon.im/idaily.today
-          url: https://idaily.today/
-          description: AI驱动热榜
-        - title: Buzzing
-          logo: https://favicon.im/www.buzzing.cc
-          url: https://www.buzzing.cc/
-          description: 海外热榜聚合
-        - title: URLS
-          logo: https://favicon.im/techurls.com
-          url: https://techurls.com/
-          description: 数理计算机热榜聚合，右上角切换不同榜单
-        - title: BestBlogs.dev
-          logo: https://favicon.im/www.bestblogs.dev
-          url: https://www.bestblogs.dev/
-          description: 计算机文章精选
-        - title: 今日热榜2
-          logo: https://favicon.im/hot.vvhan.com
-          url: https://hot.vvhan.com/
-          description: 热榜聚合站点
-        - title: 今日热榜3
-          logo: https://favicon.im/hot.imsyy.top
-          url: https://hot.imsyy.top/#/
-          description: 热榜聚合站点
-        - title: 今日热榜4
-          logo: https://favicon.im/rebang.today
-          url: https://rebang.today/
-          description: 热榜聚合站点
-        - title: AnyKnew
-          logo: https://favicon.im/www.anyknew.com
-          url: https://www.anyknew.com/#/
-          description: 热榜聚合站点
-        - title: 什么值得看
-          logo: https://favicon.im/smzdk.top
-          url: https://smzdk.top/#/
-          description: 热榜聚合站点
 
 
 
