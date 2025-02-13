@@ -262,14 +262,70 @@
 - taxonomy: Community
   icon: fas fa-users
   links: 
-    - title: 
-      logo:  https://favicon.im/
-      url: 
-      description: 
-    - title: 
-      logo:  https://favicon.im/
-      url: 
-      description: 
+    - title: 哔哩哔哩
+      logo:  https://favicon.im/www.bilibili.com
+      url: https://www.bilibili.com/
+      description: B站
+    - title: 抖音
+      logo:  https://favicon.im/www.douyin.com
+      url: https://www.douyin.com/
+      description: 抖音网页版
+    - title: 快手
+      logo:  https://favicon.im/www.kuaishou.com
+      url: https://www.kuaishou.com/
+      description: 快手网页版
+    - title: 微博
+      logo:  https://favicon.im/weibo.com
+      url: https://weibo.com/
+      description: 新浪微博
+    - title: 知乎
+      logo:  https://favicon.im/www.zhihu.com
+      url: https://www.zhihu.com/
+      description: 知乎——问答社区
+    - title: 贴吧
+      logo:  https://favicon.im/tieba.baidu.com
+      url: https://tieba.baidu.com/
+      description: 百度贴吧
+    - title: 小红书
+      logo:  https://favicon.im/www.xiaohongshu.com
+      url: https://www.xiaohongshu.com/
+      description: 小红书——生活方式平台
+    - title: 斗鱼
+      logo:  https://favicon.im/www.douyu.com
+      url: https://www.douyu.com/
+      description: 斗鱼直播
+    - title: 虎牙
+      logo:  https://favicon.im/www.huya.com
+      url: https://www.huya.com/
+      description: 虎牙直播
+    - title: 36氪
+      logo:  https://favicon.im/36kr.com
+      url: https://36kr.com/
+      description: 36氪——创业资讯
+    - title: 掘金
+      logo:  https://favicon.im/juejin.cn
+      url: https://juejin.cn/
+      description: 稀土掘金——帮助开发者成长的社区
+    - title: 少数派
+      logo:  https://favicon.im/sspai.com
+      url: https://sspai.com/
+      description: 少数派——高质量数字消费指南
+    - title: 虎扑社区
+      logo:  https://favicon.im/bbs.hupu.com
+      url: https://bbs.hupu.com/
+      description: 体育资讯  
+    - title: 豆瓣
+      logo:  https://favicon.im/www.douban.com
+      url: https://www.douban.com/
+      description: 豆瓣——发现好电影、音乐、读书、游戏
+    - title: 简书
+      logo:  https://favicon.im/www.jianshu.com
+      url: https://www.jianshu.com/
+      description: 简书——创作社区
+    - title: topbook
+      logo:  https://favicon.im/topbook.cc
+      url: https://topbook.cc/
+      description: 简单高效视频书
 
 
 
