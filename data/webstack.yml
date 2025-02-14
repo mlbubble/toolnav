@@ -328,14 +328,127 @@
       description: 简单高效视频书
 
 
+- taxonomy: AI
+  icon: far fa-lightbulb 
+  links: 
+    - title: AI工具集
+      logo:  https://favicon.im/ai-bot.cn
+      url: https://ai-bot.cn/
+      description: AI工具导航网
+    - title: 通义千问
+      logo:  https://favicon.im/tongyi.aliyun.com
+      url: https://tongyi.aliyun.com/
+      description: 阿里大模型AI助手
 
+    - title: deepseek
+      logo:  https://favicon.im/www.deepseek.com
+      url: https://www.deepseek.com/
+      description: 深度求索大模型
+    - title: ChatGLM
+      logo:  https://favicon.im/chatglm.cn
+      url: https://chatglm.cn/
+      description: 智谱清言
 
+    - title: Kimi
+      logo:  https://favicon.im/kimi.moonshot.cn
+      url: https://kimi.moonshot.cn/
+      description: 月之暗面开发的AI智能搜索
+    - title: ChatGPT
+      logo:  https://favicon.im/chatgpt.com
+      url: https://chatgpt.com/
+      description: OpenAI大模型
 
+    - title: Claude
+      logo:  https://favicon.im/claude.ai
+      url: https://claude.ai/
+      description: Anthropic大模型
+    - title: Copilot
+      logo:  https://favicon.im/copilot.microsoft.com
+      url: https://copilot.microsoft.com/
+      description: 微软大模型
 
+    - title: Grok
+      logo:  https://favicon.im/grok.com
+      url: https://grok.com/
+      description: X(原twitter)AI大模型
+    - title: Gemini
+      logo:  https://favicon.im/gemini.google.com
+      url: https://gemini.google.com/
+      description: 谷歌大模型
 
+    - title: 秘塔AI搜索
+      logo:  https://favicon.im/metaso.cn
+      url: https://metaso.cn/
+      description: AI搜索引擎
+    - title: 纳米AI搜索
+      logo:  https://favicon.im/www.n.cn
+      url: https://www.n.cn/
+      description: AI搜索引擎
 
+    - title: 知乎直达
+      logo:  https://favicon.im/zhida.zhihu.com
+      url: https://zhida.zhihu.com/
+      description: AI搜索引擎
+    - title: AI Short
+      logo:  https://favicon.im/www.aishort.top
+      url: https://www.aishort.top/
+      description:  AI 快捷指令
 
+    - title: 通义灵码
+      logo:  https://favicon.im/lingma.aliyun.com
+      url: https://lingma.aliyun.com/
+      description: 阿里开发的代码AI助手
+    - title: GitHub Copilot
+      logo:  https://favicon.im/github.com
+      url: https://github.com/features/copilot
+      description: GitHub推出的AI编程工具
 
+    - title: CodeGeeX
+      logo:  https://favicon.im/codegeex.cn
+      url: https://codegeex.cn/
+      description: 智谱AI编程助手
+    - title: MarsCode
+      logo:  https://favicon.im/www.marscode.cn
+      url: https://www.marscode.cn/
+      description: 字节AI编程助手
 
+    - title: Cursor
+      logo:  https://favicon.im/www.cursor.com
+      url: https://www.cursor.com/
+      description: AI代码编辑器
+    - title: Trae
+      logo:  https://favicon.im/www.trae.ai
+      url: https://www.trae.ai/
+      description: 字节推出的 AI IDE
 
+    - title: Deepnote
+      logo:  https://favicon.im/deepnote.com
+      url: https://deepnote.com/
+      description: AI驱动数据分析处理
+    - title: Label Studio
+      logo:  https://favicon.im/labelstud.io
+      url: https://labelstud.io/
+      description: 开源数据标注平台
 
+    - title: FlagEval
+      logo:  https://favicon.im/flageval.baai.ac.cn
+      url: https://flageval.baai.ac.cn/
+      description: 大模型排行榜
+    - title: SuperCLUE
+      logo:  https://favicon.im/www.superclueai.com
+      url: https://www.superclueai.com/
+      description: 大模型排行榜
+
+    - title: huggingface开源大模型榜单
+      logo:  https://favicon.im/huggingface.co
+      url: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
+      description: 大模型排行榜
+    - title: AGI-Eval
+      logo:  https://favicon.im/agi-eval.cn
+      url: https://agi-eval.cn/
+      description: 大模型排行榜
+
+    - title: OpenCompass评测榜单
+      logo:  https://favicon.im/rank.opencompass.org.cn
+      url: https://rank.opencompass.org.cn/
+      description: 大模型排行榜
