@@ -439,7 +439,7 @@
       url: https://www.superclueai.com/
       description: 大模型排行榜
 
-    - title: huggingface开源大模型榜单
+    - title: huggingface大模型榜单
       logo:  https://favicon.im/huggingface.co
       url: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
       description: 大模型排行榜
