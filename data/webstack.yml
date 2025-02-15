@@ -80,10 +80,7 @@
       logo:  https://favicon.im/www.taobao.com
       url: https://www.taobao.com/
       description: 淘宝网
-    - title: 天猫
-      logo:  https://favicon.im/www.tmall.com
-      url: https://www.tmall.com/
-      description: 天猫
+
     - title: 京东
       logo:  https://favicon.im/www.jd.com
       url: https://www.jd.com/
@@ -495,7 +492,7 @@
       description: 百度深度学习框架    
 
     - title: TensorFlow
-      logo:  https://favicon.im/www.tensorflow.org
+      logo:  https://t3.gstatic.cn/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=128&url=https://www.tensorflow.org/
       url: https://www.tensorflow.org/
       description: 谷歌深度学习框架
     - title: PyTorch
