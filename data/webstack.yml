@@ -376,6 +376,12 @@
       url: https://gemini.google.com/
       description: 谷歌大模型
 
+    - title: AI Short
+      logo:  https://favicon.im/www.aishort.top
+      url: https://www.aishort.top/
+      description:  AI 快捷指令
+
+
     - title: 秘塔AI搜索
       logo:  https://favicon.im/metaso.cn
       url: https://metaso.cn/
@@ -389,10 +395,7 @@
       logo:  https://favicon.im/zhida.zhihu.com
       url: https://zhida.zhihu.com/
       description: AI搜索引擎
-    - title: AI Short
-      logo:  https://favicon.im/www.aishort.top
-      url: https://www.aishort.top/
-      description:  AI 快捷指令
+
 
     - title: 通义灵码
       logo:  https://favicon.im/lingma.aliyun.com
@@ -429,7 +432,10 @@
       logo:  https://favicon.im/labelstud.io
       url: https://labelstud.io/
       description: 开源数据标注平台
-
+    - title: Scale AI
+      logo:  https://favicon.im/scale.com
+      url: https://scale.com/
+      description: 为AI模型提供数据标注/排行榜
     - title: FlagEval
       logo:  https://favicon.im/flageval.baai.ac.cn
       url: https://flageval.baai.ac.cn/
@@ -452,3 +458,156 @@
       logo:  https://favicon.im/rank.opencompass.org.cn
       url: https://rank.opencompass.org.cn/
       description: 大模型排行榜
+
+    - title: OpenML
+      logo:  https://favicon.im/www.openml.org
+      url: https://www.openml.org/
+      description: 机器学习实验室
+    - title: AI Studio
+      logo:  https://favicon.im/aistudio.baidu.com
+      url: https://aistudio.baidu.com/
+      description: 百度AI学习社区
+
+    - title: Hugging Face
+      logo:  https://favicon.im/huggingface.co
+      url: https://huggingface.co/
+      description: AI社区
+    - title: Kaggle
+      logo:  https://favicon.im/www.kaggle.com
+      url: https://www.kaggle.com/
+      description: AI社区
+
+    - title: 阿里云天池
+      logo:  https://favicon.im/tianchi.aliyun.com
+      url: https://tianchi.aliyun.com/
+      description: 天池大数据科研平台
+    - title: Google Colab
+      logo:  https://favicon.im/colab.google
+      url: https://colab.google/
+      description: 谷歌深度学习平台      
+    - title: 昇思大模型平台
+      logo:  https://favicon.im/xihe.mindspore.cn
+      url: https://xihe.mindspore.cn/
+      description: 华为昇思大模型在线平台
+    - title: 飞桨PaddlePaddle
+      logo:  https://favicon.im/www.paddlepaddle.org.cn
+      url: https://www.paddlepaddle.org.cn/
+      description: 百度深度学习框架    
+
+    - title: TensorFlow
+      logo:  https://favicon.im/www.tensorflow.org
+      url: https://www.tensorflow.org/
+      description: 谷歌深度学习框架
+    - title: PyTorch
+      logo:  https://favicon.im/pytorch.org
+      url: https://pytorch.org/
+      description: Facebook开源深度学习框架       
+    - title: Caffe
+      logo:  https://favicon.im/caffe.berkeleyvision.org
+      url: https://caffe.berkeleyvision.org/
+      description: 深度学习框架
+    - title: Keras
+      logo:  https://favicon.im/keras.io
+      url: https://keras.io/
+      description: 深度学习框架   
+
+    - title: 昇思MindSpore
+      logo:  https://favicon.im/www.mindspore.cn
+      url: https://www.mindspore.cn/
+      description: 华为AI框架MindSpore
+
+    - title: Evidently AI
+      logo:  https://favicon.im/www.evidentlyai.com
+      url: https://www.evidentlyai.com/
+      description: 开源LLM可观测性框架
+
+
+
+    - title: 启智社区
+      logo:  https://favicon.im/openi.org.cn
+      url: https://openi.org.cn/
+      description: AI开放平台
+    - title: 阿里云百炼
+      logo:  https://favicon.im/bailian.console.aliyun.com
+      url: https://bailian.console.aliyun.com/
+      description: 阿里云大模型开发平台
+    - title: ModelScope魔塔社区
+      logo:  https://favicon.im/modelscope.cn
+      url: https://modelscope.cn/
+      description: 模型开源社区及创新平台      
+
+    - title: 阿里云PAI平台
+      logo:  https://favicon.im/www.aliyun.com
+      url: https://www.aliyun.com/product/bigdata/learn?
+      description: 人工智能平台PAI
+    - title: 零一万物
+      logo:  https://favicon.im/platform.lingyiwanwu.com
+      url: https://platform.lingyiwanwu.com/
+      description: 零一万物大模型开放平台
+    - title: 千帆ModelBuilder
+      logo:  https://favicon.im/cloud.baidu.com
+      url: https://cloud.baidu.com/product-s/qianfan_modelbuilder
+      description: 百度大模型开发平台
+    - title: 千帆BML
+      logo:  https://favicon.im/cloud.baidu.com
+      url: https://cloud.baidu.com/product/bml
+      description: 百度在线开发平台
+
+    - title: EasyDL
+      logo:  https://favicon.im/cloud.baidu.com
+      url: https://cloud.baidu.com/product/easydl
+      description: 百度AI开发平台
+    - title: 腾讯云 TI 平台
+      logo:  https://favicon.im/cloud.tencent.com
+      url: https://cloud.tencent.com/product/ti
+      description: 腾讯机器学习平台
+    - title: Cloud Studio
+      logo:  https://favicon.im/cloud.tencent.com
+      url: https://cloud.tencent.com/product/cloudstudio
+      description: 腾讯云在线IDE
+    - title: ModelArts
+      logo:  https://favicon.im/www.huaweicloud.com
+      url: https://www.huaweicloud.com/product/modelarts.html
+      description: 华为AI开发平台
+
+    - title: 火山方舟
+      logo:  https://favicon.im/www.volcengine.com
+      url: https://www.volcengine.com/product/ark
+      description: 字节大模型开发平台
+    - title: SiliconFlow硅基流动
+      logo:  https://favicon.im/siliconflow.cn
+      url: https://siliconflow.cn/
+      description: 大模型平台
+    - title: 无问芯穹
+      logo:  https://favicon.im/cloud.infini-ai.com
+      url: https://cloud.infini-ai.com/
+      description: 大模型平台
+    - title: OpenRouter
+      logo:  https://favicon.im/openrouter.ai
+      url: https://openrouter.ai/
+      description: 大模型api服务平台/排行榜
+    - title: 超算互联网
+      logo:  https://favicon.im/www.scnet.cn
+      url: https://www.scnet.cn/
+      description: 超算算力网络和服务平台
+    - title: Azure ML
+      logo:  https://favicon.im/microsoft.com
+      url: https://azure.microsoft.com/en-us/products/machine-learning
+      description: 微软机器学习平台
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
