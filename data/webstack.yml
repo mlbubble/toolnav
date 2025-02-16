@@ -520,10 +520,6 @@
 
 
 
-    - title: 启智社区
-      logo:  https://favicon.im/openi.org.cn
-      url: https://openi.org.cn/
-      description: AI开放平台
     - title: 阿里云百炼
       logo:  https://favicon.im/bailian.console.aliyun.com
       url: https://bailian.console.aliyun.com/
@@ -583,6 +579,11 @@
       logo:  https://favicon.im/openrouter.ai
       url: https://openrouter.ai/
       description: 大模型api服务平台/排行榜
+
+    - title: 启智社区
+      logo:  https://favicon.im/openi.org.cn
+      url: https://openi.org.cn/
+      description: AI开放平台
     - title: 超算互联网
       logo:  https://favicon.im/www.scnet.cn
       url: https://www.scnet.cn/
